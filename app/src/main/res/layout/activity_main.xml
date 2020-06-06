@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/WrongSentence"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="80px"
+    android:hint="Wrong Sentence"
+    />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/CorrectSentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="80px"
+        android:hint="Correct Sentence"/>
+
+    <Button
+        android:id="@+id/CheckButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Answer"/>
+    <Button
+        android:id="@+id/NextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"/>
+
+
+</LinearLayout>
